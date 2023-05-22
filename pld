@@ -103,12 +103,14 @@ local MainWindow = Rayfield:CreateWindow({
 	Name = "HoHo Hub",
 	Callback = function(v)
 		v = print('Successfully 2')
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 	end,
  })
  local Button = MainTab:CreateButton({
-	Name = "name",
+	Name = "Banana Hub",
 	Callback = function(v)
 		v = print('Successfully 3')
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
 	end,
  })
  local Button = MainTab:CreateButton({
