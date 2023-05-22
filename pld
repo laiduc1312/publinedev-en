@@ -28,6 +28,14 @@ local MainWindow = Rayfield:CreateWindow({
  })
 
  local MainTab = MainWindow:CreateTab("Main", 4483362458) -- Title, Image
+ local Button = MainTab:CreateButton({
+	Name = "Fly",
+	Callback = function(v)
+		v = print('Successfully')
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/laiduc1312/flyv3gui/main/source")()
+	end,
+ })
+
 
 
  local Button = MainTab:CreateButton({
