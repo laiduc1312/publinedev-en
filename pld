@@ -2,31 +2,30 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shle
 
 
 local MainWindow = Rayfield:CreateWindow({
-	Name = "PublineDEV",
+	Name = "PublineDEV Tool",
 	LoadingTitle = "Ducdzz...",
 	LoadingSubtitle = "by laiduc1312",
 	ConfigurationSaving = {
 	   Enabled = true,
 	   FolderName = nil, -- Create a custom folder for your hub/game
-	   FileName = "PublineDEV"
+	   FileName = "PublineDEV Tool"
 	},
 	Discord = {
 	   Enabled = false,
-	   Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
+	   Invite = "Discord: https://discord.gg/KqUgYjN9A4", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD.
 	   RememberJoins = true -- Set this to false to make them join the discord every time they load it up
 	},
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-	   Title = "PublineDEV",
+	   Title = "PublineDEV Tool",
 	   Subtitle = "Key System",
-	   Note = "Script make by laiduc1312#5735| Discord: https://discord.gg/KqUgYjN9A4",
+	   Note = "Script make by laiduc1312#5735 ",
 	   FileName = "Key",
 	   SaveKey = true,
 	   GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-	   Key = "laiduc1312"
+	   Key = "laiduc13122009"
 	}
  })
-
 
  local MainTab = MainWindow:CreateTab("Main", 4483362458) -- Title, Image
 
@@ -83,4 +82,46 @@ local MainWindow = Rayfield:CreateWindow({
 		game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
 	end,
  })
+
+ local MainTab = MainWindow:CreateTab("Blox Fruits", 4483362458) -- Title, Image
+ local Button = MainTab:CreateButton({
+	Name = "Mukuro Hub (PC only)",
+	Callback = function(v)
+		v = print('Successfully')
+		loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "HoHo Hub",
+	Callback = function(v)
+		v = print('Successfully 2')
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "name",
+	Callback = function(v)
+		v = print('Successfully 3')
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "name",
+	Callback = function(v)
+		v = print('Successfully 4')
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "name",
+	Callback = function(v)
+		v = print('Successfully 5')
+	end,
+ })
+ local Button = MainTab:CreateButton({
+	Name = "name",
+	Callback = function(v)
+		v = print('Successfully 6')
+	end,
+ })
  
+
+
+ local MainTab = MainWindow:CreateTab("Pet Simulator", 4483362458) -- Title, Image
