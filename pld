@@ -107,10 +107,9 @@ local MainWindow = Rayfield:CreateWindow({
 	end,
  })
  local Button = MainTab:CreateButton({
-	Name = "Banana Hub",
+	Name = "Banana Hub (Not supportt)",
 	Callback = function(v)
 		v = print('Successfully 3')
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
 	end,
  })
  local Button = MainTab:CreateButton({
